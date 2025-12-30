@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Татьяна Полуян | Системный психолог бизнеса</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <img src="logo.png" alt="Логотип Татьяны Полюян" class="logo">
+                <nav>
+                    <a href="#main">Главная</a>
+                    <a href="#services">Услуги</a>
+                    <a href="#about">Обо мне</a>
+                    <a href="#feedback">Отзывы</a>
+                    <a href="#contacts">Запись</a>
+                </nav>
+                <div class="burger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Главный баннер -->
+        <section id="main" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>Системный психолог бизнеса</h1>
+                    <h2>8 лет работы с собственниками крупного и среднего бизнеса</h2>
+                    <p>Решение задач бизнеса через психологию — точная математика вместо интуиции</p>
+                    <div class="hero-buttons">
+                        <a href="#contacts" class="btn btn-primary">Записаться на консультацию</a>
+                        <a href="#services" class="btn btn-secondary">Посмотреть услуги</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Краткие результаты -->
+        <section class="results">
+            <div class="container">
+                <div class="results-grid">
+                    <div class="result-item">
+                        <div class="result-number">+47%</div>
+                        <div class="result-text">Рост прибыли клиентов за 6 месяцев</div>
+                    </div>
+                    <div class="result-item">
+                        <div class="result-number">100%</div>
+                        <div class="result-text">Точность подбора топ-менеджеров</div>
+                    </div>
+                    <div class="result-item">
+                        <div class="result-number">-73%</div>
+                        <div class="result-text">Сокращение текучки кадров</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Услуги -->
+        <section id="services" class="services">
+            <div class="container">
+                <h2 class="section-title">Что вы получите</h2>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <h3>Аудит бизнес-процессов</h3>
+                        <p>Выявление блоков в сценариях принятия решений. Сценарии транзактного анализа.</p>
+                        <div class="service-price">от 250 000 ₽</div>
+                    </div>
+                    <div class="service-card">
+                        <h3>Подбор топ-менеджеров</h3>
+                        <p>Психоматрица + физиогномика + поведенческий анализ. Гарантия 12 месяцев.</p>
+                        <div class="service-price">от 150 000 ₽</div>
+                    </div>
+                    <div class="service-card">
+                        <h3>Настройка процессов</h3>
+                        <p>Системы мотивации, KPI, корпоративная культура. Результат за 3 месяца.</p>
+                        <div class="service-price">от 350 000 ₽</div>
+                    </div>
+                    <div class="service-card">
+                        <h3>Экспресс-диагностика</h3>
+                        <p>30 минут. Потенциал сотрудников и партнеров. Точность 97%.</p>
+                        <div class="service-price">35 000 ₽</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Обо мне -->
+        <section id="about" class="about">
+            <div class="container">
+                <div class="about-content">
+                    <div class="about-text">
+                        <h2>Татьяна Полуян</h2>
+                        <h3>Системный психолог бизнеса с 2019 года</h3>
+                        <ul>
+                            <li>8 лет консультирую собственников</li>
+                            <li>10+ лет изучаю психологию у лучших бизнес-психологов России </li>
+                            <li>выстроила бизнес-систему в 21 бизнесах, в том числе в международных компаниях</li>
+                            <li>Автор системы психоматрицы</li>
+                        </ul>
+                        <p><strong>Работаю только с собственниками</strong> бизнеса с выручкой от 100 млн ₽/год</p>
+                    </div>
+                    <div class="about-image">
+                        <div class="image-placeholder">Фото Татьяны<br>300x400px</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Отзывы -->
+        <section id="feedback" class="feedback">
+            <div class="container">
+                <h2 class="section-title">Отзывы клиентов</h2>
+                <div class="reviews-slider">
+                    <div class="review">
+                        <div class="review-author">Андрей, владелец строительного холдинга</div>
+                        <p>«Татьяна — единственный специалист, который говорит с бизнесом на одном языке. После аудита моих сценариев в транзактном анализе мы нашли причину, по которой я не мог пробить потолок в прибыли. За 3 месяца оборот вырос на 20%, а я наконец-то перестал жить в офисе».</p>
+                    </div>
+                    <div class="review">
+                        <div class="review-author">Елена, HR-директор международной сети</div>
+                        <p>«Система ввода сотрудников, которую помогла внедрить Татьяна, сэкономила мне десятки часов. Она видит людей насквозь: её диагностика по физиогномике при найме топ-менеджмента ни разу не дала сбоя. Это математическая точность в психологии».</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Форма заявки -->
+    <section id="contacts" class="contacts">
+        <div class="container">
+            <div class="form-container">
+                <h2>Запись на консультацию</h2>
+                <p>Оставьте заявку, чтобы выбрать удобное время для встречи</p>
+                <form id="contactForm" class="contact-form">
+                    <div class="form-group">
+                        <input type="text" name="name" placeholder="Ваше имя" required>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <input type="tel" name="phone" placeholder="Контактный телефон" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" placeholder="Ваш Email" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <input type="datetime-local" name="datetime" placeholder="Дата и время">
+                    </div>
+                    <div class="form-group">
+                        <select name="topic" required>
+                            <option value="">Тема обращения</option>
+                            <option value="business">Бизнес-запрос</option>
+                            <option value="personal">Личная консультация</option>
+                            <option value="systems">Системные вопросы</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="comment" placeholder="Краткий комментарий к вашей ситуации"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary full-width">Отправить заявку</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="contacts-info">
+                    <div>Email: poluyan.tatyana@internet.ru</div>
+                    <div>Telegram: @TaPoluyan</div>
+                </div>
+                <div class="footer-nav">
+                    <a href="#main">Главная</a>
+                    <a href="#services">Услуги</a>
+                    <a href="#contacts">Запись</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
